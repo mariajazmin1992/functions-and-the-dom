@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    border: 3px solid black;
+}
+
+body > p + p[alt] {
+    text-decoration: hotpink wavy underline;
+}
+
+.pokemon-gallery {
+    display: flex;
+    flex-direction: row; /* default */
+    justify-content: center;
+    border: 3px dotted darkmagenta;
+    flex-wrap: wrap;
+}
+
+
